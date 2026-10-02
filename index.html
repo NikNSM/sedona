@@ -33,8 +33,8 @@
           <li class="navigation-user-item">
             <a class="navigation-user-link navigation-user-favorite" href="#">
               <span class="visually-hidden">Избранное</span>
+              <span class="user-favorite-quantity">12</span>
             </a>
-            <span class="user-favorite-quantity">12</span>
           </li>
         </ul>
         <a class="navigation-button" href="#">Хочу сюда!</a>
@@ -42,9 +42,8 @@
     </header>
 
     <main class="main-index">
-      <h1>Городок Седона</h1>
       <section class="greetings">
-        <h2 class="visually-hidden">Приветсвие!</h2>
+        <h1 class="main-title">Городок Седона</h1>
         <img class="greetings-img" src="#" alt="Welcome to the gargeous Sedona. Because the grand Canyin sucks!">
       </section>
 
@@ -72,9 +71,9 @@
             <p class="advantages-item-description">Большинство едет в Гранд Каньон и толпится там</p>
           </li>
           <li class="advantages-item">
+            <img class="advantages-item-img" src="#" alt="Каньон, тянущиеся вдаль поля к обрывистым горам">
             <h3 class="advantages-title">Там есть мост дьявола</h3>
             <p class="advantages-item-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
-            <img class="advantages-item-img" src="#" alt="Каньон, тянущиеся вдаль поля к обрывистым горам">
           </li>
         </ul>
       </section>
@@ -103,8 +102,9 @@
       <section class="booking">
         <h2 class="visually-hidden">Бронирование</h2>
         <p class="main-description booking-description">Заинтересовались?</p>
-        <p class="main-text booking-text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <a class="button booking-link" href="#">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>
+        <p class="main-text booking-text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения
+          гостиниц в Седоне</p>
+        <button class="button booking-button">Поиск гостиницы в Седоне</button>
       </section>
     </main>
 
@@ -115,7 +115,7 @@
         <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
           <p class="subscription-email">
             <label class="visually-hidden" for="email-user">Ваше Email</label>
-            <input type="email" name="email-user" id="email-user" placeholder="Ваш e-mail">
+            <input type="email" name="email-user" id="email-user" placeholder="example@mail.ru" required>
           </p>
           <button class="button button-email" type="submit">Подписаться</button>
         </form>
@@ -142,13 +142,17 @@
         </ul>
       </section>
 
-      <section class="footer-contacts">
-        <h2 class="visually-hidden">Контаная информация</h2>
-        <a class="footer-contacts-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-        <a class="footer-contacts-website" href="https://htmlacademy.ru/">
-          <img class="footer-contacts-logo" src="#" alt="Логотип htmlacademy">
+      <p class="footer-phone">
+        <a class="footer-contacts-phone" href="tel:+78128121212">
+          <span class="visually-hidden">Номер телефона для связи:</span>+7 (812) 812-12-12
         </a>
-      </section>
+      </p>
+
+      <p class="footer-website-developer">
+        <a class="footer-developer-link" href="https://htmlacademy.ru/">
+          <span class="visually-hidden">Сайт разработчка:</span>
+        </a>
+      </p>
     </footer>
   </body>
 
