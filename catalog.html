@@ -4,6 +4,7 @@
   <head>
     <meta charset="utf-8">
     <title>Гостиницы</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
 
   <body>
@@ -12,7 +13,7 @@
         <a class="navigation-link-logo" href="index.html">
           <img class="header-logo" src="images/logo-sedona.svg" width="140" height="70" alt="Логотип города Седона">
         </a>
-        <ul class="navigation-list">
+        <ul class="list">
           <li class="navigation-item">
             <a class="navigation-link" href="index.html">Главная</a>
           </li>
@@ -24,7 +25,7 @@
           </li>
         </ul>
 
-        <ul class="navigation-user-list">
+        <ul class="list">
           <li class="navigation-user-item">
             <a class="navigation-user-link navigation-user-search" href="#">
               <span class="visually-hidden">Поиск</span>
@@ -45,7 +46,7 @@
       <header class="header-catalog">
         <h1 class="catalog-title">Гостиницы Седоны</h1>
 
-        <ul class="bread-crumbs-list">
+        <ul class="list">
           <li class="bread-crumbs-item">
             <a class="bread-crumbs-link" href="index.html">
               <span class="visually-hidden">Главная страница</span>
@@ -176,18 +177,10 @@
         <ul class="catalog-proposals-list">
           <li class="catalog-proposals-item">
             <h3 class="card-proposals-title">Amara Resort & Spa</h3>
-            <img class="card-proposals-img" src="images/hotels/hotel-1.jpg" width="300" height="212" alt="Выход из пещер с видом на звездное небо">
-            <table class="card-proposals-table">
-              <tr class="visually-hidden">
-                <th>Тип жилья</th>
-                <th>Цена</th>
-              </tr>
-              <tr class="card-proposals-description">
-                <th>Гостиница</th>
-                <th>от 4000 ₽</th>
-              </tr>
-            </table>
-
+            <img class="card-proposals-img" src="images/hotels/hotel-1.jpg" width="300" height="212"
+              alt="Выход из пещер с видом на звездное небо">
+            <p class="card-proposals-description">Гостиница</p>
+            <p class="card-proposals-description">от 4000 ₽</p>
             <a class="button card-proposals-link" href="#">Подробнее</a>
             <button class="button card-proposals-button" type="button">В избранное</button>
 
@@ -218,20 +211,12 @@
 
           <li class="catalog-proposals-item">
             <h3 class="card-proposals-title">Villas at Poco Diablo</h3>
-            <img class="card-proposals-img" src="images/hotels/hotel-2.jpg" width="300" height="212" alt="Скалистые горы в пасмурную погоду с темными тучами и радугой">
-            <table class="card-proposals-table">
-              <tr class="visually-hidden">
-                <th>Тип жилья</th>
-                <th>Цена</th>
-              </tr>
-              <tr class="card-proposals-description">
-                <th>Гостиница</th>
-                <th>от 5000 ₽</th>
-              </tr>
-            </table>
-
+            <img class="card-proposals-img" src="images/hotels/hotel-2.jpg" width="300" height="212"
+              alt="Скалистые горы в пасмурную погоду с темными тучами и радугой">
+            <p class="card-proposals-description">Гостиница</p>
+            <p class="card-proposals-description">от 5000 ₽</p>
             <a class="button card-proposals-link" href="#">Подробнее</a>
-            <button class="button card-proposals-button" type="button">В избранное</button>
+            <button class="button card-proposals-button card-proposals-button--current" type="button">В избранное</button>
 
             <div class="card-proposals-rating">
               <ul class="stars-rating-list">
@@ -260,18 +245,10 @@
 
           <li class="catalog-proposals-item">
             <h3 class="card-proposals-title">Desert Quail Inn</h3>
-            <img class="card-proposals-img" src="images/hotels/hotel-3.jpg" width="300" height="212" alt="Гора в солнечную погоду на фоне голубого неба">
-            <table class="card-proposals-table">
-              <tr class="visually-hidden">
-                <th>Тип жилья</th>
-                <th>Цена</th>
-              </tr>
-              <tr class="card-proposals-description">
-                <th>Гостиница</th>
-                <th>от 2500 ₽</th>
-              </tr>
-            </table>
-
+            <img class="card-proposals-img" src="images/hotels/hotel-3.jpg" width="300" height="212"
+              alt="Гора в солнечную погоду на фоне голубого неба">
+            <p class="card-proposals-description">Гостиница</p>
+            <p class="card-proposals-description">от 2500 ₽</p>
             <a class="button card-proposals-link" href="#">Подробнее</a>
             <button class="button card-proposals-button" type="button">В избранное</button>
 
@@ -302,18 +279,10 @@
 
           <li class="catalog-proposals-item">
             <h3 class="card-proposals-title">GreenTree Inn</h3>
-            <img class="card-proposals-img" src="images/hotels/hotel-4.jpg" width="300" height="212" alt="Гора на фоне звездного неба">
-            <table class="card-proposals-table">
-              <tr class="visually-hidden">
-                <th>Тип жилья</th>
-                <th>Цена</th>
-              </tr>
-              <tr class="card-proposals-description">
-                <th>Гостиница</th>
-                <th>от 1500 ₽</th>
-              </tr>
-            </table>
-
+            <img class="card-proposals-img" src="images/hotels/hotel-4.jpg" width="300" height="212"
+              alt="Гора на фоне звездного неба">
+            <p class="card-proposals-description">Гостиница</p>
+            <p class="card-proposals-description">от 1500 ₽</p>
             <a class="button card-proposals-link" href="#">Подробнее</a>
             <button class="button card-proposals-button" type="button">В избранное</button>
 
@@ -343,7 +312,7 @@
           </li>
         </ul>
 
-        <ul class="catalog-pagination-list">
+        <ul class="list">
           <li class="catalog-pagination-item">
             <a class="catalog-pagination-link pagination-current" href="#">1</a>
           </li>
@@ -357,7 +326,7 @@
             <a class="catalog-pagination-link" href="#">4</a>
           </li>
           <li class="catalog-pagination-item">
-            <a class="catalog-pagination-link" href="#">...</a>
+            <a class="catalog-pagination-link pagination-none" href="#">...</a>
           </li>
           <li class="catalog-pagination-item">
             <a class="catalog-pagination-link" href="#">10</a>
@@ -381,7 +350,7 @@
 
       <section class="footer-social">
         <h2 class="visually-hidden">Социальные сети</h2>
-        <ul class="footer-social-list">
+        <ul class="list">
           <li class="footer-social-item">
             <a class="footer-social-link-button" href="https://vk.com/htmlacademy">
               <span class="visually-hidden">Vkontakte</span>
